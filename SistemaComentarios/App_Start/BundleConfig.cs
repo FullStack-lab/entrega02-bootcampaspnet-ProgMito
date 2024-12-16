@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace SistemaComentarios
+namespace SistemaComentario
 {
     public class BundleConfig
     {

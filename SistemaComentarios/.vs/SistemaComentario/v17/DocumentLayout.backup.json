@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\views\\comentario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:views\\comentario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\views\\comentario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:views\\comentario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,50 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:48:51.863Z",
+              "DocumentIndex": 0,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comentario\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Criar.cshtml*",
+              "RelativeToolTip": "Views\\Comentario\\Criar.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T23:17:03.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentario\\Index.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Index.cshtml",
               "RelativeToolTip": "Views\\Comentario\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T22:33:36.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ComentarioController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Controllers\\ComentarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\ComentarioController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Controllers\\ComentarioController.cs",
               "RelativeToolTip": "Controllers\\ComentarioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T22:31:33.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Resposta.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Models\\Resposta.cs",
               "RelativeDocumentMoniker": "Models\\Resposta.cs",
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Comentario.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "Models\\Comentario.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Models\\Comentario.cs",
               "RelativeToolTip": "Models\\Comentario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T22:27:32.835Z",
               "EditorCaption": ""

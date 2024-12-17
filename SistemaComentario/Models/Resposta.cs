@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SistemaComentarios.Models
+namespace SistemaComentario.Models
 {
     public class Resposta
     {

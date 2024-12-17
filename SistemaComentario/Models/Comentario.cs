@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SistemaComentarios.Models
+namespace SistemaComentario.Models
 {
     public class Comentario
     {

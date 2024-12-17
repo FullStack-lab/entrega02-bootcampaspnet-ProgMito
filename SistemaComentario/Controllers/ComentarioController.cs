@@ -1,4 +1,4 @@
-﻿using SistemaComentarios.Models;
+﻿using SistemaComentario.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -61,6 +61,5 @@ namespace SistemaComentario.Controllers
             }
             return View(comentario);
         }
-
     }
 }

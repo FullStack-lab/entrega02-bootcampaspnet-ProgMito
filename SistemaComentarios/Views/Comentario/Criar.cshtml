@@ -1,26 +1,36 @@
 ﻿@model SistemaComentarios.Models.Comentario
 
-<h2>Adicionar Comentário </h2>
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <meta charset="utf-8" name="viewport" content="width-device-width">
+    <title>Criar Comentários</title>
+</header>
+<body>
+    <h2>Adicionar Comentário </h2>
 
-@using (Html.BeginForm())
-{
+    @using (Html.BeginForm())
+    {
+        <div>
+            <div>
+                @Html.LabelFor(m => m.Autor, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.Autor, new { @class = "form-control", placeholder = "Seu nome" })
+            </div>
+
+            <div>
+                @Html.LabelFor(m => m.Texto, new { @class = "control-label" })
+                @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", placeholder = "Digite seu comentário...", rows = 5 })
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-primary">Adicionar</button>
+            </div>
+        </div>
+    }
+
     <div>
-        <div>
-            @Html.LabelFor(m => m.Autor, new { @class = "control-label" })
-            @Html.TextBoxFor(m => m.Autor, new { @class = "form-control", placeholder = "Seu nome" })
-        </div>
-
-        <div>
-            @Html.LabelFor(m => m.Texto, new { @class = "control-label" })
-            @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", placeholder = "Digite seu comentário...", rows = 5 })
-        </div>
-
-        <div>
-            <button type="submit" class="btn btn-primary">Adicionar</button>
-        </div>
+        <a href="@Url.Action("Index", "Comentario")">Todos os comentários</a>
     </div>
-}
+</body>
+</html>
 
-<div>
-    <a href="@Url.Action("Index", "Comentario")">Todos os comentários</a>
-</div>

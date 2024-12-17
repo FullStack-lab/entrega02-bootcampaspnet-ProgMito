@@ -1,0 +1,26 @@
+﻿@model SistemaComentarios.Models.Comentario
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <meta charset="utf-8" name="viewport" content="width-device-width">
+    <title>Detalhes do Comentário</title>
+</header>
+<body>
+    <h2>Detalhes do Comentário</h2>
+    <p><strong>@Model.Autor</strong> - @Model.DataPost</p>
+    <p>@Model.Texto</p>
+
+    <h3>Respostas</h3>
+    @foreach (var resposta in Model.Respostas)
+    {
+        <p><strong>@resposta.Autor</strong> - @resposta.DataPost</p>
+        <p>@resposta.Texto</p>
+    }
+    <a href="@Url.Action("CriarResposta", new { id = Model.Id })">Adicionar Resposta</a>
+
+
+</body>
+</html>
+

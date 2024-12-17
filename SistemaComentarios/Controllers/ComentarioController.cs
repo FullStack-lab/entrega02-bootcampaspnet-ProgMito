@@ -1,6 +1,7 @@
 ﻿using SistemaComentarios.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace SistemaComentario.Controllers
@@ -31,5 +32,14 @@ namespace SistemaComentario.Controllers
             }
             return View(comentario);
         }
+
+        public ActionResult Detalhes(int id)
+        {
+            var comentario = comentarios.FirstOrDefault(c => c.Id == id);
+            if (comentario == null)
+                return HttpNotFound();
+            return View(comentario);
+        }
+
     }
 }

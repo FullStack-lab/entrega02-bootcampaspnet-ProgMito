@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\views\\comentario\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:views\\comentario\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\views\\comentario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:views\\comentario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\views\\comentario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:views\\comentario\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|c:\\users\\usuario\\desktop\\bootcampzencheck\\m\u00F3dulo1\\sistemacomentario\\views\\comentario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:views\\comentario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|solutionrelative:models\\resposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E1FDF78-F816-4232-8A2C-68C69B5DAF0D}|SistemaComentario.csproj|C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,25 +39,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Detalhes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Detalhes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comentario\\Detalhes.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Detalhes.cshtml",
+              "RelativeToolTip": "Views\\Comentario\\Detalhes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T00:34:09.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Criar.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Criar.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentario\\Criar.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Criar.cshtml",
               "RelativeToolTip": "Views\\Comentario\\Criar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T23:17:03.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Comentario\\Index.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Views\\Comentario\\Index.cshtml",
               "RelativeToolTip": "Views\\Comentario\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T22:33:36.442Z",
               "EditorCaption": ""
@@ -66,14 +83,14 @@
               "RelativeDocumentMoniker": "Controllers\\ComentarioController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Controllers\\ComentarioController.cs",
               "RelativeToolTip": "Controllers\\ComentarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T22:31:33.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Resposta.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Models\\Resposta.cs",
               "RelativeDocumentMoniker": "Models\\Resposta.cs",
@@ -81,12 +98,11 @@
               "RelativeToolTip": "Models\\Resposta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:27:50.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:27:50.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Comentario.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BootcampZenCheck\\M\u00F3dulo1\\SistemaComentario\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "Models\\Comentario.cs",
@@ -94,8 +110,7 @@
               "RelativeToolTip": "Models\\Comentario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:27:32.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:27:32.835Z"
             }
           ]
         }

@@ -41,5 +41,26 @@ namespace SistemaComentario.Controllers
             return View(comentario);
         }
 
+        [HttpGet]
+        public ActionResult Editar(int id)
+        {
+            var comentario = comentarios.FirstOrDefault(c => c.Id == id);
+            if (comentario == null)
+                return HttpNotFound();
+            return View(comentario);
+        }
+
+        [HttpPost]
+        public ActionResult Editar(Comentario comentario)
+        {
+            var original = comentarios.FirstOrDefault(c => c.Id == comentario.Id);
+            if (original != null && ModelState.IsValid)
+            {
+                original.Texto = comentario.Texto;
+                return RedirectToAction("Index");
+            }
+            return View(comentario);
+        }
+
     }
 }

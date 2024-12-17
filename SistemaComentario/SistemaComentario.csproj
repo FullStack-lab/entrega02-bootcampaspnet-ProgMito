@@ -183,6 +183,7 @@
     <Content Include="Views\Comentario\Index.cshtml" />
     <Content Include="Views\Comentario\Criar.cshtml" />
     <Content Include="Views\Comentario\Detalhes.cshtml" />
+    <Content Include="Views\Comentario\Editar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

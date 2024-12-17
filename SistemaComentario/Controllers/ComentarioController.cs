@@ -61,5 +61,16 @@ namespace SistemaComentario.Controllers
             }
             return View(comentario);
         }
+
+        public ActionResult Excluir(int id)
+        {
+            var comentario = comentarios.FirstOrDefault(c => c.Id == id);
+            if (comentario != null)
+            {
+                comentarios.Remove(comentario);
+            }
+            return RedirectToAction("Index");
+        }
+
     }
 }

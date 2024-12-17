@@ -6,21 +6,65 @@
 <header>
     <meta charset="utf-8" name="viewport" content="width-device-width">
     <title>Detalhes do Comentário</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </header>
 <body>
-    <h2>Detalhes do Comentário</h2>
-    <p><strong>@Model.Autor</strong> - @Model.DataPost</p>
-    <p>@Model.Texto</p>
+    <div class="container mt-4">
+        <h2>Detalhes do Comentário</h2>
 
-    <h3>Respostas</h3>
-    @foreach (var resposta in Model.Respostas)
-    {
-        <p><strong>@resposta.Autor</strong> - @resposta.DataPost</p>
-        <p>@resposta.Texto</p>
-    }
-    <a href="@Url.Action("CriarResposta", new { id = Model.Id })">Adicionar Resposta</a>
+        <div class="comment-details mb-4">
+            <p><strong>@Model.Autor</strong> - @Model.DataPost</p>
+            <p>@Model.Texto</p>
+        </div>
 
+        <h3>Respostas</h3>
+        <div class="respostas">
+            @foreach (var resposta in Model.Respostas)
+            {
+                <div class="mb-3">
+                    <p><strong>@resposta.Autor</strong> - @resposta.DataPost</p>
+                    <p>@resposta.Texto</p>
+                </div>
+            }
+        </div>
 
+        <a href="@Url.Action("CriarResposta", new { id = Model.Id })" class="btn btn-primary">
+            <i class="fas fa-reply"></i> Adicionar Resposta
+        </a>
+
+        <a href="@Url.Action("Index")" class="btn btn-secondary mt">
+            <i class="fas fa-arrow-left"></i> Voltar
+        </a>
+    </div>
+
+    <style>
+        body, html {
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .comment-details, .respostas {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+            .comment-details p, .respostas p {
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
+
 

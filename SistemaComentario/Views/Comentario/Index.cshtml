@@ -24,7 +24,7 @@
                     <div class="list-group-item mb-3">
                         <h5>@comentario.Autor</h5>
                         <p><small>@comentario.DataPost.ToString("dd/MM/yyyy HH:mm")</small></p>
-                        <p>@comentario.Texto</p>
+                        <p style="word-wrap: break-word;">@(comentario.Texto.Length > 200 ? comentario.Texto.Substring(0, 200) + "..." : comentario.Texto)</p>
 
                         <span class="badge badge-info">
                             <i class="fas fa-comment"></i> @comentario.Respostas.Count Respostas

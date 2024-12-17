@@ -1,6 +1,6 @@
 ﻿@model SistemaComentario.Models.Comentario
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";  // Certifique-se de que o layout contém o Bootstrap.
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
@@ -20,7 +20,7 @@
         {
             <div class="form-group">
                 @Html.LabelFor(m => m.Texto, htmlAttributes: new { @class = "control-label" })
-                @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", rows = "4", placeholder = "Atualize o texto do comentário..." })
+                @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", rows = "4", placeholder = "Editar comentário..." })
                 @Html.ValidationMessageFor(m => m.Texto, "", new { @class = "text-danger" })
             </div>
 

@@ -5,32 +5,36 @@
 <header>
     <meta charset="utf-8" name="viewport" content="width-device-width">
     <title>Criar Comentários</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </header>
 <body>
-    <h2>Adicionar Comentário </h2>
+    <h2>Adicionar Comentário</h2>
 
     @using (Html.BeginForm())
     {
         <div>
-            <div>
+            <div class="form-group">
                 @Html.LabelFor(m => m.Autor, new { @class = "control-label" })
-                @Html.TextBoxFor(m => m.Autor, new { @class = "form-control", placeholder = "Seu nome" })
+                @Html.TextBoxFor(m => m.Autor, new { @class = "form-control", placeholder = "Seu nome", required = "required" })
             </div>
 
-            <div>
+            <div class="form-group">
                 @Html.LabelFor(m => m.Texto, new { @class = "control-label" })
-                @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", placeholder = "Digite seu comentário...", rows = 5 })
+                @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", placeholder = "Digite seu comentário...", rows = 5, maxlength = "500", required = "required" })
             </div>
 
             <div>
-                <button type="submit" class="btn btn-primary">Adicionar</button>
+                <button type="submit" class="btn btn-primary"> <i class="fas fa-plus"></i> Adicionar</button>
+                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Voltar
+                </a>
             </div>
         </div>
     }
 
-    <div>
-        <a href="@Url.Action("Index", "Comentario")">Todos os comentários</a>
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
 </body>
+
 </html>
 

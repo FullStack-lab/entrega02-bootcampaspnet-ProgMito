@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ComentarioController.cs" />
+    <Compile Include="Controllers\RespostaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,6 +181,8 @@
     <Content Include="Views\Comentario\Criar.cshtml" />
     <Content Include="Views\Comentario\Detalhes.cshtml" />
     <Content Include="Views\Comentario\Editar.cshtml" />
+    <Content Include="Views\Resposta\Criar.cshtml" />
+    <Content Include="Views\Resposta\Editar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

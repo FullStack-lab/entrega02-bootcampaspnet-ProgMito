@@ -1,0 +1,39 @@
+﻿@model SistemaComentario.Models.Resposta
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <meta charset="utf-8" name="viewport" content="width-device-width">
+    <title>Editar Resposta</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</header>
+<body>
+    <div class="container mt-4">
+        <h2>Editar Resposta</h2>
+
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.Texto, htmlAttributes: new { @class = "control-label" })
+                @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", rows = "4", placeholder = "Editar sua resposta..." })
+                @Html.ValidationMessageFor(m => m.Texto, "", new { @class = "text-danger" })
+            </div>
+
+            <button type="submit" class="btn btn-warning">
+                <i class="fas fa-save"></i> Salvar Alterações
+            </button>
+            <a href="@Url.Action("Detalhes", "Comentario", new { id = Model.ComentarioId })" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Voltar
+            </a>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
